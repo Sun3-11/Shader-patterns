@@ -225,7 +225,7 @@ fontLoader.load('fonts/helvetiker_regular.typeface.json', function(font) {
     // count
     let count = 1;
     setInterval(function() {
-        if (count >= 51) {
+        if (count >= 50) {
             count = 1;
             scene.remove(textMesh);
             textMesh = createTextMesh(count.toString());
